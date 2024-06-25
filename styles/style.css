@@ -52,3 +52,41 @@ h1 {
   color: var(--primary-color);
   cursor: pointer;
 }
+.presentation-info {
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 30px;
+  text-align: center;
+}
+
+.presentation-info h2 {
+  font-size: 26px;
+}
+
+.presentation-info p {
+  opacity: 0.6;
+  color: black;
+}
+
+.presentation-info hr {
+  margin: 25px 30px;
+}
+
+.social-icons .fa-brands {
+  padding: 10px;
+  font-size: 25px;
+  color: #353552;
+}
+
+.social-icons .fa-brands:hover {
+  background: var(--primary-color);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media (max-width: 576px) {
+  .introduction {
+    padding: 0;
+  }
+}
