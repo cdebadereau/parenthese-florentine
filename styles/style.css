@@ -11,6 +11,14 @@ body {
   color: #353552;
 }
 
+.navbar {
+  background: var(--primary-color);
+}
+
+.navbar a {
+  color: var(--secondary-color);
+}
+
 h1,
 h2,
 h3,
