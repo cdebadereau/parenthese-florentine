@@ -122,7 +122,7 @@ article .read-more-button:hover {
   color: var(--secondary-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 990px) {
   .introduction {
     padding: 0;
   }
@@ -138,5 +138,9 @@ article .read-more-button:hover {
   article .read-more-button {
     margin: 0 auto;
     display: block;
+  }
+
+  .card {
+    margin: 0 auto;
   }
 }
