@@ -66,18 +66,29 @@
         </div>
       </div>
     </div>
-    <h3 class="text-center mt-4 mb-4">
-      Envie de me poser une question ? N'hésitez pas à m'écrire !
-    </h3>
-    <form>
-      <label for="name">Prénom</label>
-      <input type="text" />
+    <div class="form-section mt-5">
+      <h3 class="text-center mt-4 mb-4">
+        Envie de me poser une question ? N'hésitez pas à m'écrire !
+      </h3>
+      <form class="container">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name">Prénom</label>
+            <input type="text" />
+          </div>
+          <div class="col-md-6">
+            <label for="email">E-mail</label>
+            <input type="email" required />
+          </div>
+        </div>
 
-      <label for="email">E-mail</label>
-      <input type="email" required />
-
-      <input type="text" placeholder="Message" />
-      <input type="submit" value="Envoyer" />
-    </form>
+        <div class="row">
+          <div class="col-12">
+            <input type="text" placeholder="Message" />
+            <input type="submit" value="Envoyer" />
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
