@@ -122,6 +122,10 @@ article .read-more-button:hover {
   color: var(--secondary-color);
 }
 
+.about-section {
+  padding-top: 100px;
+}
+
 .form-section {
   background: var(--primary-color);
   padding: 15px;
@@ -132,6 +136,12 @@ form input {
   border: 1px solid var(--secondary-color);
   background: var(--primary-color);
   border-radius: 4px;
+}
+
+.text-form {
+  width: 80%;
+  height: 100px;
+  resize: vertical;
 }
 
 @media (max-width: 990px) {
