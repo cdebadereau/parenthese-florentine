@@ -105,7 +105,8 @@ article a {
   color: #353552;
 }
 
-article a:hover {
+article h2:hover,
+article h5:hover {
   text-decoration: underline;
 }
 
@@ -193,6 +194,10 @@ footer .social-icons .fa-brands:hover {
 @media (max-width: 990px) {
   .introduction {
     padding: 0;
+  }
+
+  article {
+    text-align: center;
   }
 
   article p.homepage-article {
