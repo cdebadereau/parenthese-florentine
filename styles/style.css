@@ -144,12 +144,20 @@ form input {
   resize: vertical;
 }
 
+article h2,
+.presentation-info {
+  margin-top: 100px;
+}
+
+article img {
+  margin: 20px 0 20px;
+}
 @media (max-width: 990px) {
   .introduction {
     padding: 0;
   }
 
-  article p {
+  article p.homepage-article {
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
