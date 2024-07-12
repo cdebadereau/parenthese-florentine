@@ -152,6 +152,26 @@ article h2,
 article img {
   margin: 20px 0 20px;
 }
+
+footer {
+  background: #353552;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+footer .social-icons .fa-brands {
+  color: #ffffff;
+  transition: 150ms all ease-in-out;
+}
+
+footer .social-icons .fa-brands:hover {
+  color: #353552;
+}
+
 @media (max-width: 990px) {
   .introduction {
     padding: 0;
