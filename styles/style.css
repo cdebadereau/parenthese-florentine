@@ -70,6 +70,7 @@ h1 {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
   padding: 30px;
+  margin-top: 0 auto;
   text-align: center;
 }
 
@@ -165,7 +166,7 @@ form .btn:hover {
 
 article h2,
 .presentation-info {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 article img {
