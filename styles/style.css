@@ -173,6 +173,10 @@ article img {
   margin: 20px 0 20px;
 }
 
+.main-article {
+  padding-top: 48px;
+}
+
 footer {
   background: #353552;
   text-align: center;
